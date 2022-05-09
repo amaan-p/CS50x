@@ -3,3 +3,5 @@
 1. C Problem Set 1
    - Mario More Comfortable Solution
    - Credit Solution
+2. Arrays
+   - Lab 2
