@@ -6,3 +6,4 @@
 2. Arrays
    - Lab 2 Solution
    - Readability Solution
+   - Substitution Solution
