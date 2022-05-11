@@ -4,4 +4,5 @@
    - Mario More Comfortable Solution
    - Credit Solution
 2. Arrays
-   - Lab 2
+   - Lab 2 Solution
+   - Readability Solution
