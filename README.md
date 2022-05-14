@@ -8,4 +8,4 @@
    - Readability Solution
    - Substitution Solution
 3. Algorithms 🤖
-  -Lab 3 Solution
+   - Lab 3 Solution
