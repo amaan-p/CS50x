@@ -7,3 +7,5 @@
    - Lab 2 Solution
    - Readability Solution
    - Substitution Solution
+3. Algorithms 🤖
+   -Lab 3 Solution
