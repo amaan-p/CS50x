@@ -9,3 +9,4 @@
    - Substitution Solution
 3. Algorithms 🤖
    - Lab 3 Solution
+   -  Plurality Solution
