@@ -9,9 +9,11 @@
    - Substitution Solution
 3. Algorithms 🤖
    - Lab 3 Solution
-   -  Plurality Solution
+   - Plurality Solution
    - Tideman Solution
 4. Memory 🛰️
    - Lab 4 Solution
    - Filter More Comfortable Solution
    - Recover 
+5. Data Structures 🏛️
+   - Lab 5 Solutio
