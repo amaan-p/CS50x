@@ -16,4 +16,4 @@
    - Filter More Comfortable Solution
    - Recover 
 5. Data Structures 🏛️
-   - Lab 5 Solutio
+   - Lab 5 Solution
