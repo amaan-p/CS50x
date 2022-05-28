@@ -17,3 +17,4 @@
    - Recover 
 5. Data Structures 🏛️
    - Lab 5 Solution
+   - Speller
