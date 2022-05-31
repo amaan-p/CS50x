@@ -20,6 +20,6 @@
    - Speller
 6. Python 🐍
    - Lab 6 Solution
-   - sentimental-hello
-   - sentimental-mario-more
-   - sentimental-credit
+   - Sentimental-hello
+   - Sentimental-mario-more
+   - Sentimental-credit
