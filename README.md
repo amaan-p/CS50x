@@ -23,3 +23,5 @@
    - Sentimental-hello
    - Sentimental-mario-more
    - Sentimental-credit
+   - Sentimental-readability
+   - DNA
