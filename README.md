@@ -18,3 +18,8 @@
 5. Data Structures 🏛️
    - Lab 5 Solution
    - Speller
+6. Python 🐍
+   - Lab 6 Solution
+   - Sentimental-hello
+   - Sentimental-mario-more
+   - Sentimental-credit

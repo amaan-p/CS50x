@@ -1,4 +1,3 @@
-import re
 from cs50 import get_string
 
 global card_number
