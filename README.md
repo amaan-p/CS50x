@@ -30,3 +30,4 @@
    - Movies
    - Fiftyville
 8. HTML CSS And JavaScript 🕸️
+   - Lab 8 Solution
