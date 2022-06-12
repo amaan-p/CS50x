@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Trivia!</title>
+    <script>
+      // TODO: Add code to check answers to questions
+         window.addEventListener("load", function () {
+         let correct = document.querySelector(".correct");
+         correct.addEventListener("click", function () {
+         correct.style.backgroundColor = "lightgreen";
+         document.querySelector("#answer").innerHTML = "correct";
+        });
+        let incorrects = document.querySelectorAll(".incorrect");
+        for (let i = 0; i < incorrects.length; i++) {
+            incorrects[i].addEventListener("click", function () {
+            incorrects[i].style.backgroundColor = "red";
+            document.querySelector("#answer").innerHTML = "incorrect";
+          });
+        }
+        //for question 2
+        document.querySelector(".check_answer").addEventListener("click",function(){
+            let answer=document.querySelector("#text")
+            if(answer.value=="Russia"){
+                answer.style.backgroundColor="lightgreen"
+                document.querySelector("#answer2").innerHTML="correct"
+            }else{
+                answer.style.backgroundColor="red"
+                document.querySelector("#answer2").innerHTML="incorrect"
+            }
+        })
+      });
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <h2>Part 1: Multiple Choice</h2>
+        <hr />
+        <!-- TODO: Add multiple choice question here -->
+        <h3>What Is Captial Of India ?</h3>
+        <button class="incorrect">Mumbai</button>
+        <button class="correct">Delhi</button>
+        <button class="incorrect">Chennai</button>
+        <button class="incorrect">Kolkatta</button>
+        <div id="answer"></div>
+      </div>
+
+      <div class="section">
+        <h2>Part 2: Free Response</h2>
+        <hr />
+        <!-- TODO: Add free response question here -->
+        <h3>Which is the largest country in the world by landmass ?</h3>
+        <input type="text" id="text" autocomplete="off" autofocus placeholder="Answer">
+        <button class="check_answer">Check Answer</button>
+        <div id="answer2"></div>
+      </div>
+    </div>
+  </body>
+</html>
