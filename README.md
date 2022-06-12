@@ -25,3 +25,7 @@
    - Sentimental-credit
    - Sentimental-readability
    - DNA
+7. SQL 📚
+   - Lab 7 Solution
+   - Movies
+   - Fiftyville
