@@ -33,4 +33,5 @@
    - Lab 8 Solution
    - Homepage
 9. Flask :hourglass:
-
+   - Lab 9 Solution
+   - Finance
