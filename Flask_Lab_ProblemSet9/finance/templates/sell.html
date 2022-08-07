@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+<form method="POST" action="/sell">
+    <select name="stock">
+        {% for stock in stocks %}
+            <option value="{{ stock['stock'] }}">{{ stock['stock'].upper() }}</option>
+        {% endfor %}
+    </select>
+    <input type="number" name="shares" autofocus autocomplete="off" placeholder="No of Shares" min="1">
+    <input type="submit" value="sell">
+</form>
+{% endblock %}
