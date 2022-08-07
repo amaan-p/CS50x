@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link href="styles.css" rel="stylesheet" />
+    <title>My Webpage</title>
+  </head>
+  <body>
+    <!-- header nav-->
+    <header>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <span class="homepage"> My Homepage</span>
+          </a>
+          <!--nav-elements-->
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutme.html">About me</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="cs50.html">CS50</a></li>
+            <li class="nav-item"><a class="nav-link" href="social.html">Socials</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--jumbotron-->
+    <div class="container-fluid">
+      <div class="jumbotron bg-dark" id="jumbotron">
+        <div class="container text">
+          <br />
+          <div class="jumbotext">
+            <h1 class="display-4 text-center lead">Welcome</h1>
+            <p class="lead text-center">
+              To My Homepage<br />
+              (created fror CS50x Problem Set 8)
+            </p>
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
+    <!--coded by-->
+      <div class="container-fluid">
+        <div class="jumbotron bg-dark" id="jumbotron1">
+          <div class="container text">
+            <br />
+            <div class="jumbotext">
+              <h1 class="display-4 text-center lead">Coded By</h1>
+              <p class="lead text-center">Amaan Patel</p>
+            </div>
+            <br />
+          </div>
+        </div>
+      </div>
+    <!--cards-->
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-sm col-md">
+          <div class="card bg-dark" id="card1">
+            <img src="html.jpg" class="card-img-top" alt="html code" />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">&lt; CREATE &gt;</h5>
+              <p class="card-text">Website Made With The Power Of HTML5</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm col-md">
+          <div class="card bg-dark" id="card">
+            <img src="css.jpg" class="card-img-top" alt="css code" />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Style{;}</h5>
+              <p class="card-text">Designed By The Magic Of Bootstrap CSS</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm col-mdS">
+          <div class="card bg-dark cardt" id="card">
+            <img src="js.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">function( );</h5>
+              <p class="card-text" id="cardtext3">Powered By The Almighty Javascript.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+      <footer>
+   <div class="container-fluid" id=footer>
+    <div class="footer-text">
+      Made by <a href="aboutme.html" id="footerlink">Amaan Patel</a>
+    </div>
+   </div>
+      </footer>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+.nav-link{
+    color: rgb(250, 245, 245);
+    
+    }
+#jumbotron{
+    margin:15px 30px 0px 30px;
+    border-radius:10px;
+      background: url("banner1.png") center center / cover no-repeat;
+      opacity: 0.85; 
+}
+.jumbotext{
+    margin-top:7%;
+    margin-bottom: 7%;
+    color: rgb(250, 246, 246);
+    font-size:20%;
+}
+
+.nav-link:hover{
+    color: rgb(196, 7, 196);
+}
+.navbar-brand{
+    margin-left: 1%;
+}
+.homepage:hover{
+    color: rgb(196, 7, 196);
+}
+.lead{
+    text-shadow: 2px 2px 1.5px rgb(229, 64, 201);
+}
+.column {
+    float: left;
+    width: 30%;
+    margin:15px 30px 0px 30px;
+    border-radius:10px;
+  }
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+.card{
+    margin:15px 30px 0px 30px;
+    border-radius:10px;
+
+}
+.card-title{
+    color: rgb(250, 246, 246);
+    text-shadow: 2px 2px 1.5px rgb(229, 64, 201);
+}
+#card{
+    border: solid 1px rgb(229, 64, 201);
+}
+.card-text{
+    color: rgb(250, 246, 246);
+    text-shadow: 2px 2px 1.9px rgb(229, 64, 201);
+}
+#jumbotron1{
+    margin:35px 30px 40px 30px;
+    border-radius:10px;
+      background: url("f1.png") center center / cover no-repeat;
+      opacity: 0.85; 
+}
+#jumbotron3{
+    margin:35px 30px 40px 30px;
+    border-radius:10px;
+    background: url("socials.jpg") center center / cover no-repeat;
+    
+  
+}
+#jumbotron4{
+    margin:35px 30px 40px 30px;
+    border-radius:10px;
+    background: url("hrd.png") center center / cover no-repeat;
+    
+  
+}
+#card1{
+    border: solid 1px rgb(229, 64, 201);
+    margin-bottom: 30px;
+}
+#cardtext3{
+    margin-bottom: 30px;
+}
+#footer{
+    background-color: rgb(27, 27, 27);
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.footer-text{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 1.5px rgb(229, 64, 201);
+}
+#footerlink{
+    color: aliceblue;
+}
+#container{
+    background: url("laptopback1.png") center center / cover no-repeat;
+}
+.icons{
+    width: 10%;    
+}
+form{
+    width:30%;
+    color: aliceblue;
+    text-shadow: 2px 2px 1.5px rgb(229, 64, 201);
+    margin: auto;
+}
+.form{
+margin-top: 20px;
+margin-bottom: 30px;
+}
+#alert{
+    text-shadow: 0px 0px 0px rgb(229, 64, 201);
+}
+.bio{
+    width:70%;
+    background: url("we.png") center center / cover no-repeat;
+}
+.bioimg{
+    width: 50%;
+    margin: auto;
+    border: solid 1px rgb(229, 64, 201);
+}
+.about{
+    margin: auto;
+}
+.introtext{
+    color: aliceblue;
+    text-shadow: 1px 1px 2px rgb(229, 64, 201);
+    font-size:larger;
+    margin:35px 30px 40px 30px;
+    font-style: italic;
+}
+.texti{
+   width: 70%;
+    margin: auto;
+    background: url("bb.png") center center / cover no-repeat;
+}
